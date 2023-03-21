@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+  on: [push]
     docker:
       - image: fpco/stack-build:lts-7
     steps:
