@@ -1,5 +1,5 @@
 version: 2
-on: macos-latest
+on: push
 jobs:
   build:
     docker:
